@@ -1,0 +1,41 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: white;
+  border-bottom: 1px solid #e0e0e0;
+  z-index: 999; /* Ensure the navbar stays on top */
+}
+.header-option {
+  display: flex; /* Remove unnecessary flex property */
+  align-items: center; /* Maintain vertical alignment */
+}
+
+.header-option select {
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+
+  /* Add a down arrow indicator using base64 encoded SVG */
+  background-repeat: no-repeat;
+  background-position: right 10px center; /* Position the indicator */
+  cursor: pointer; /* Indicate clickable behavior */
+}
+
+.header-option span {
+  margin-right: 5px; /* Add margin between icon and text */
+  margin-left: 5px; /* Add margin between text and dropdown icon */
+}
+
+.header-option select:hover {
+  border-color: #aaa; /* Change border color on hover */
+}
+
+.header-option select:focus {
+  outline: 2px solid #ddd; /* Add an outline on focus */
+}

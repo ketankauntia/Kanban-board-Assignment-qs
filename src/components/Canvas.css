@@ -1,0 +1,10 @@
+.canvas {
+  display: flex;
+  gap: 1rem;
+  background: #f4f5f8;
+  margin-top: 90px; /* Adjust this value to match the height of your navbar */
+}
+
+.canvas-container {
+  display: flex;
+}

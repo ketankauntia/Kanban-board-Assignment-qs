@@ -1,0 +1,38 @@
+.block {
+  margin: 1.5rem -2.5rem 3.5rem 3.5rem;
+}
+
+.single-block {
+  padding: 16px 16px;
+  /* width: 350px; */
+  position: relative;
+}
+
+.block-title {
+  display: flex;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+}
+
+.block-left,
+.block-right {
+  display: flex; /* Wrap icons and text within each section */
+}
+
+.block-icon {
+  margin: 0 7px; /* Add spacing between icons and text */
+}
+
+.block-text {
+  flex-grow: 1; /* Allow text to fill remaining space */
+}
+
+.ticket-count {
+  padding: 0 0.5rem;
+  font-weight: 400;
+  margin-left: 0.3rem;
+}
